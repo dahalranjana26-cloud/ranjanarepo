@@ -1,0 +1,41 @@
+body{
+    background:  blue;
+}
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color:aliceblue;
+    transition: font-size 0.35s,padding 0.35s, color 0.35s;
+}
+nav a:hover{
+    font-size: 25px;
+    padding: 25px;
+    color: brown;
+}
+div{
+    display: flex;
+    border: 2px solid blue;
+}
+section{
+    padding: 10px;
+    border: 1px solid rosybrown;
+    background-color: blueviolet;
+}
+article{
+    background-color: blanchedalmond;
+}
+footer{
+    padding: 20px;
+    background-color: beige;
+}
